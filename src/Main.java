@@ -27,6 +27,32 @@ public class Main {
         System.out.println("Hi my name is " + studentName);
 
         //Math Methods
-        Math.max()
+        int maxNum = Math.max(5, 10);
+        int minNum = Math.min(5, 10);
+        int sqrtNum = (int) Math.sqrt(9);
+        int randomNum = (int) (Math.random() * 10);
+
+        System.out.println("Max: " + maxNum);
+        System.out.println("Min: " + minNum);
+        System.out.println("Sqrt: " + sqrtNum);
+        System.out.println(randomNum);
+
+        //Booleans Practice and Logical operators
+        if (randomNum == 5){
+            System.out.println("The number is equal to 5!");
+        } else if (randomNum == 3){
+            System.out.println("The number is equal to 3!");
+        } else{
+            System.out.println("Our guess was incorrect!");
+        }
+
+        //Switch case
+        switch (averageMark){
+            case 'A':
+                System.out.println("You have a distinction!");
+                break;
+            case 'B':
+                System.out.println("You almost got a distinction!");
+        }
     }
 }
